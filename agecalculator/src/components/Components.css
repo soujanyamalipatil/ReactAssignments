@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+  }
+  .Calculator {
+    padding-top: 20px;  
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+  }
+  .Input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Stats {
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  .Stats h3 {
+    color: blueviolet;
+  }
+  .Stats h6 {
+    padding-left: 10px;
+  }
+  .card {
+    border-radius: 10px;
+  }
+  .card-header {
+    border-radius: 10px;
+  }
+  .btn {
+    width: 75%;
+  }
+  .textfield {
+    width: 100%;
+  }
